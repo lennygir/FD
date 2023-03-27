@@ -11,26 +11,22 @@
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <config key="polygon_selection_lonpoints">
-<entry key="array-size" type="xint" value="8"/>
-<entry key="0" type="xdouble" value="4.814243316650391"/>
-<entry key="1" type="xdouble" value="4.825615882873535"/>
-<entry key="2" type="xdouble" value="4.821023941040039"/>
-<entry key="3" type="xdouble" value="4.819393157958984"/>
-<entry key="4" type="xdouble" value="4.817719459533691"/>
-<entry key="5" type="xdouble" value="4.816646575927734"/>
-<entry key="6" type="xdouble" value="4.814286231994629"/>
-<entry key="7" type="xdouble" value="4.812912940979004"/>
+<entry key="array-size" type="xint" value="6"/>
+<entry key="0" type="xdouble" value="4.8143720626831055"/>
+<entry key="1" type="xdouble" value="4.824714660644531"/>
+<entry key="2" type="xdouble" value="4.821667671203613"/>
+<entry key="3" type="xdouble" value="4.820079803466797"/>
+<entry key="4" type="xdouble" value="4.813041687011719"/>
+<entry key="5" type="xdouble" value="4.812784194946289"/>
 </config>
 <config key="polygon_selection_latpoints">
-<entry key="array-size" type="xint" value="8"/>
-<entry key="0" type="xdouble" value="45.74515590286055"/>
-<entry key="1" type="xdouble" value="45.741052805303205"/>
-<entry key="2" type="xdouble" value="45.735301971347894"/>
-<entry key="3" type="xdouble" value="45.727213859010924"/>
-<entry key="4" type="xdouble" value="45.72703410987784"/>
-<entry key="5" type="xdouble" value="45.73062898264198"/>
-<entry key="6" type="xdouble" value="45.732156733507104"/>
-<entry key="7" type="xdouble" value="45.74021417890731"/>
+<entry key="array-size" type="xint" value="6"/>
+<entry key="0" type="xdouble" value="45.745245748338164"/>
+<entry key="1" type="xdouble" value="45.74117260804578"/>
+<entry key="2" type="xdouble" value="45.73638029782998"/>
+<entry key="3" type="xdouble" value="45.73485266250145"/>
+<entry key="4" type="xdouble" value="45.7362604848047"/>
+<entry key="5" type="xdouble" value="45.74078324819249"/>
 </config>
 <config key="exclude_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
@@ -77,7 +73,7 @@
 </config>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="CONFIGURED"/>
+<entry key="state" type="xstring" value="EXECUTED"/>
 <entry key="factory" type="xstring" value="org.knime.ext.osm.node.rowfilter.GeoRowFilterNodeFactory"/>
 <entry key="node-name" type="xstring" value="Geo-Coordinate Row Filter"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Open Street Map Views Integration"/>
@@ -90,16 +86,19 @@
 <entry key="node-feature-version" type="xstring" value="4.1.0.v201911110939"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Geo-Coordinate Row Filter"/>
-<entry key="hasContent" type="xboolean" value="false"/>
+<entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 3632, Cols: 16"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="0e935be9-5ad7-49ac-afe3-327a58e14341"/>
 </config>
 </config>
